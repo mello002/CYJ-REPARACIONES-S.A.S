@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background: #fff ;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+}
+a{
+    color:#223770 ;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+   overflow: hidden;
+    margin: auto;
+}
+.nav-main{
+    font-size: 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 20px 0;
+  
+
+}
+
+.nav-brand{
+    width: 200px;
+}
+/*nav lef*/
+.nav-main ul  {
+    display: flex;
+    
+    
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.menu-btn{
+   position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    color:#49617e;
+    display: none;
+    font-size: 1.8rem;
+    z-index: 2;
+}
+.nav-main ul.nav-menu{
+    margin-right: 30px;
+}
+.nav-main ul li a:hover{
+background-color: #223770;
+color: rgba(255, 255, 255, 0.938);
+}
+.titulo-nosotros  {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "aleta";
+    
+}
+.nosotros-biografia{
+    background-color: #13233a;
+ 
+   text-align: center;
+   padding:15px;
+
+    
+}
+.nosotros-biografia p{
+    font-size: 19px;
+    color: #fff;
+    font-family: "arimo";
+    text-align: center;
+    
+
+}
+ .nosotros-biografia img{
+ width: 400px;
+ z-index: 3;
+
+}
+.quienes-somos{
+    background-color: #f2f4fb!important;
+    text-align: center;
+    font-size: 20px;
+}
+.quienes-somos  h1{
+font-size: 40px;
+padding: 15px;
+color: #182844!important;
+}
+.quienes-somos p{
+    font-size: 17px;
+    color: #666666;
+    text-align: center;
+}
+
+.footer{
+    background-color: #13233a;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    font-family: "arimo";
+}

@@ -1,0 +1,291 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #ffffffa9 ;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+}
+a{
+    color:#223770 ;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+   overflow: hidden;
+    margin: auto;
+}
+/*navegacion*/
+.nav-main{
+    font-size: 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 50px 0;
+  
+
+}
+.nav-brand{
+    position: relative;
+    max-width: 175px;
+    filter: brightness(0.4);
+    margin-right: 20px;
+
+}
+/*nav lef*/
+.nav-main ul  {
+    display: flex;
+    
+    
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.menu-btn{
+   position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    color:#49617e;
+    display: none;
+    font-size: 1.8rem;
+    z-index: 2;
+}
+.nav-main ul.nav-menu{
+    margin-right: 30px;
+}
+.nav-main ul li a:hover{
+    transition: 0.2s;
+    background: #7692ff;
+    color: #fff;
+}
+
+/*Showcase*/
+.showcase{
+   width: 100%;
+   background: hsla(224, 57%, 25%, 0.196);
+   background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(198, 39%, 28%, 0.461), #203A43, hsla(198, 44%, 11%, 0.461));   /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(198, 39%, 28%, 0.443), hsla(195, 35%, 19%, 0.351), hsla(198, 44%, 11%, 0.448)),url(img/marine-metal-scaffold-course-for-scaffolders.jpg) no-repeat center center/ cover ;; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   height: 500px;
+   padding-bottom: 50px;
+   display: flex;
+   margin-bottom: 70px;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   font-size: x-large;
+   font-family: "arimo", sans-serif;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #49617e;
+    color: #fff;
+    font-size: 15px;
+    border:1px solid #fff ;
+    margin: 10px 0;
+}
+hr{
+    margin:5px 0;
+}
+.btn:hover{
+    opacity: .9;
+}
+.showcase h2
+.showcase p{
+    margin-bottom: 10px;
+}
+.about-service{
+    display:grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 0;
+    
+}
+.titulo-servicio  {
+    color: #223770;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Alata';
+    
+}
+.about-service img{
+    width: 100%;
+    height: 180px;
+}
+.about-service h2{
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Alata';
+}
+.about-service h3{
+    font-size: 15px;
+    margin: 10px 0;
+    color: #0F2027;
+    text-align: center;
+    margin-top: -30px;
+    font-family: "arimo" ,sans-serif;
+
+}
+
+.about-service a{
+    margin-left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    display: inline-block ;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #49617e;
+    color: #fff;
+    font-size: 15px;
+    border:1px solid #fff ;
+   
+    
+    
+}
+.about-service a:hover{
+    opacity: .9;
+}
+.contacto{
+    background-color: #0F2027;
+    text-align: center;
+    padding: 25px;
+   
+}
+
+.contacto-titulo {
+    padding: 25px;
+    font-size: 30px;
+    font-family: "aleta";
+}
+
+.formulario{
+   max-width: 100%;
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+   
+    
+    border-radius: 10px;
+    
+    
+}
+.formulario-grup{
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  display: block;
+  
+  width: 100%;
+  margin-bottom: 10px;
+  
+ 
+}
+.formulario-input, .formulario-label{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+
+}
+.formulario-input{
+    border: 1px solid rgba(0, 0,0, 0.3);
+    margin-bottom: 10px;
+}
+.formulario-label{
+    padding-left: 10px; 
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    
+}
+.contact-text{
+    font-size: 20px;
+}
+.btn-enviar{
+background: rgba(0, 0, 0, 0.7);
+border-radius:10px;
+display: block;
+width: 15%;
+margin:10px ;
+cursor: pointer;
+margin-left: 50%;
+transform: translate(-50%);
+padding: 10px 5px;
+font-size: 1.3em;
+background: #49617e;
+color :white;
+}
+.btn-enviar:hover{
+    opacity: .9;
+
+}
+
+.footer{
+    background-color: #13233a;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    font-family: "arimo";
+}
+
+
+@media (max-width:700px) {
+    .about-service{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .about-service img{
+        height: 250px;
+    }
+    .menu-btn{
+        display: block;
+        position: fixed;
+        
+    }
+    .nav-main ul.nav-menu{
+        right:0;
+        top: 0;
+        position: fixed;
+        display: block;
+        background-color: #0F2027;
+        padding: 30px;
+        opacity: .9;
+        height: 100%;
+        transform: translatex(500px);
+        transition: transform .5s ease-in-out;
+
+    }
+    .nav-main ul.nav-menu.show{
+        transform: translateX(50px);
+
+    }
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        border-bottom: #ccc solid 1px;
+        color: #fff;
+        
+    }
+    .nav-main ul.nav-menu a{
+        color: #fff;
+    }
+    
+}
